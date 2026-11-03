@@ -1,0 +1,40 @@
+# Operating system
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+credentials.json
+client_secret*.json
+token.json
+service-account*.json
+
+# clasp credentials and a machine-local script binding
+.clasprc.json
+.clasp.json
+
+# Local Apps Script push state
+.appscript.json
+
+# Node, if a local syntax check or harness is used
+node_modules/
+npm-debug.log*
+yarn-error.log*
+*.log
+
+# Temporary test harnesses
+.tmp-*
+tmp/
+*.tmp
